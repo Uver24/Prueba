@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(29, 43, 89);
+}
+
+.form {
+  width: 400px;
+  height: auto;
+  /* max-height: 650px; */
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 140px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  text-align: center;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #304d86;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.boton {
+  width: 100%;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #304d86;
+  font-family: "calibri";
+  font-size: 18px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.boton:hover {
+  background-color: #1a54c7;
+  color: white;
+}
+
+.mensaje {
+  color: red;
+}
+
+table {
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 140px;
+  margin-bottom: 50px;
+  border-radius: 4px;
+  font-family: "calibri";
+}
+
+tr{
+  background-color: #e2e4e9;
+  width: 80%;
+  text-align: center;
+}
+th{
+  width: 80%;
+}
+
+label{
+  color: #e2e4e9;
+  font-size: 20px;
+}
+
+select{
+  font-family: "calibre";
+  
+}
